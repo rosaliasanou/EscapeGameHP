@@ -1,0 +1,24 @@
+
+body {
+  height: 100vh;
+  font-family: Garamond;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://uploads.lebonbon.fr/source/2022/january/2027410/harry_1_2000.jpg");
+  background-size: cover; 
+  margin: 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center; 
+}
+
+#Revenir {
+  color: white;
+  background: #114266; 
+  font-family: Garamond;
+}

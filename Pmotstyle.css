@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  font-family: Garamond;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.wikia.nocookie.net/harrypotter/images/f/f9/Chambre_des_secrets_lego.jpg/revision/latest/scale-to-width-down/1280?cb=20130925152648&path-prefix=fr");
+  background-size: cover; 
+  margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    justify-content: center
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center; 
+}
+
+h2 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#Gryffondor{
+    color: red;
+}
+#Serpentard{
+    color: green;
+}
+#Poufsouffle{
+    color: rgb(209, 209, 6);
+}
+#Serdaigle{
+    color: rgb(0, 81, 255);
+}
+
+
+.zone-jeu{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+#champ{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;  
+    color: white;
+    background: #7e6700; 
+    font-family: Garamond;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#choix{
+    display:none;
+    margin-top:20px;
+}
+
+#resultat{
+    display:none;
+    margin-top:20px;
+}
+
+#suivant{
+    display:none;
+    margin-top:20px;
+}
